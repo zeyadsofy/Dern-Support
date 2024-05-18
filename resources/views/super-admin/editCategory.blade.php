@@ -25,6 +25,12 @@
                                 <input  type="text" name="name" value="{{ $category->name }}"  class="form-control">
                             </div>
                         </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label>Description : <span class="text-danger">*</span></label>
+                                <input  type="text" name="desc" value="{{ $category->desc }}" class="form-control">
+                            </div>
+                        </div>
                     </div>
 
                 <br>
