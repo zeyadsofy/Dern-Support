@@ -17,7 +17,8 @@ class DatabaseSeeder extends Seeder
         
         $this->call([
             categorySeeder::class,
-            // Other seeders...
+            AdminSeeder::class,
+
         ]);
 
         \App\Models\Service::factory(10)->create();
